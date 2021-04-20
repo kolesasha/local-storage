@@ -1,0 +1,32 @@
+<!--simulira prozor koji iskace u toku rada aplikacije-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <div class="gallery">
+        <a href="https://www.google.com/">
+            <img src="slika.jpg" alt="S1">
+        </a>
+        <a href="slika.jpg">
+            <img src="slika.jpg" alt="S2">
+        </a>
+        <a href="slika.jpg">
+            <img src="slika.jpg" alt="S3">
+        </a>
+        <a href="slika.jpg">
+            <img src="slika.jpg" alt="S4">
+        </a>
+    </div>
+    <div class="popup visible" id="gallery-preview">
+        <button onclick="hidePopup();">X</button>
+        <img src="#" alt="Loading image.....">
+    </div>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
